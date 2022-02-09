@@ -1,0 +1,84 @@
+
+.flex-container{
+    background-color: rgba(255, 255, 252, 0.912);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.vremjarab{
+    display: inline-table;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.consult-block {
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.number{
+    text-align: center;
+}
+
+.bottom{
+    align-items: center;
+    justify-content: center;
+}
+
+.navconteiner {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+  
+  
+}
+
+.main_nav_element{
+  font-size: 20px ;
+  position: relative ;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
+.nav_name{
+  text-decoration: none;
+}
+
+.drop_name{
+  font: size 20px;
+
+}
+
+.drop_menu{
+  display: none;
+  position:absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+
+}
+
+.drop_menu a {
+  color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.drop_menu a:hover {background-color: #ddd;}
+.main_nav_element:hover .drop_menu {display:flex; align-items: center; justify-content: flex-start;}
+.main_nav_element:hover .nav_name {color: rgb(0, 0, 0); font-weight: 600;}
+
+.main_box{
+display: block ;
+align-items: center
+max-width: 500px;
+text-align: center;
+}
