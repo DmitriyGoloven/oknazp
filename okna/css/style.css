@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
+  background-color: beige;
 
   
   
@@ -77,8 +78,8 @@
 .main_nav_element:hover .nav_name {color: rgb(0, 0, 0); font-weight: 600;}
 
 .main_box{
-display: block ;
-align-items: center
-max-width: 500px;
-text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
